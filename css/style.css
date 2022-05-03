@@ -1,0 +1,352 @@
+/* reset from normalize */
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
+display: block;
+}
+
+canvas {
+display: inline-block;
+*display: inline;
+*zoom: 1;
+}
+
+[hidden] {
+display: none;
+}
+
+html {
+font-size: 100%;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+
+a:focus {
+outline: thin dotted;
+}
+
+a:active,a:hover {
+outline: 0;
+}
+
+h1 {
+font-size: 1.6em;
+margin: 0;
+}
+
+h2 {
+font-size: 1.3em;
+margin: 2.2em 0 0.83em 0;
+}
+
+h3 {
+font-size: 1.1em;
+margin: 1em 0;
+}
+
+strong {
+font-weight: bold;
+}
+
+blockquote {
+margin: 1em 40px;
+}
+
+hr {
+-moz-box-sizing: content-box;
+box-sizing: content-box;
+height: 0;
+}
+
+p {
+margin: 1em 0;
+}
+
+small {
+font-size: 80%;
+}
+
+ol,ul {
+margin: 1em 0;
+}
+
+ol,ul {
+padding: 0 0 0 40px;
+}
+
+nav ul,nav ol {
+list-style: none;
+list-style-image: none;
+}
+
+img {
+border: 0;
+-ms-interpolation-mode: bicubic;
+}
+
+svg:not(:root) {
+overflow: hidden;
+}
+
+figure {
+margin: 0;
+}
+
+html, body { 
+height: auto; /* 100% */
+-webkit-tap-highlight-color: transparent;
+overflow-x: hidden;
+}
+
+
+body {
+margin: 0;
+font-family: -apple-system, 'Helvetica Neue', Helvetica, 'RobotoRegular', 'Droid Sans', 'Segoe UI', Segoe, Arial, sans-serif;
+}
+
+a {
+color: #3F51B5;
+text-decoration: none;
+}
+
+a:hover, .site-footer a:focus {
+color: #283593;
+text-decoration: underline;
+}
+
+img {
+width: 100%;
+height: auto;
+}
+
+.cartoon-cell {
+margin-top: 20px;
+}
+
+header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 50px;
+background: #3F51B5;
+color: #fff;
+box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+}
+
+#logo a {
+margin: 10px 5px 0 15px;
+background: url(../img/star.svg) no-repeat 0 50%;
+background-size: auto 32px;
+background-position: 100% 50%;
+padding: 5px 35px 5px 0;
+display: inline-block;
+color: #fff;
+text-decoration: none;
+}
+
+.content-wrapper {
+box-sizing: border-box;
+margin: 30px 0 0 0;
+width: 100%;
+height: calc(100%-50px);
+overflow-x: hidden;
+overflow-y: auto;
+overflow-scrolling: touch;
+padding: 20px;
+}
+
+h1 {
+font-weight: normal;
+background: #283593;
+padding: 20px 20px 15px 20px;
+color: #fff;
+margin-left: -20px;
+margin-right: -20px;
+}
+
+h2, h3 {
+font-weight: normal;
+color: #283593;
+}
+
+.chorus {
+font-style: italic;
+}
+
+.ref {
+font-size: 80%;
+font-style: italic;
+}
+
+.verse {
+font-size: 70%;
+font-weight: bolder;
+padding: 0 3px;
+border: 1px solid #3F51B5;
+border-radius: 3px;
+}
+
+#script { /*words of comic hidden from visual users but not screen readers */
+border: 0;
+clip: rect(0 0 0 0);
+height: 1px;
+margin: -1px;
+overflow: hidden;
+padding: 0;
+position: absolute;
+width: 1px;
+}
+
+.subnav {
+list-style: none;
+padding-left: 0;
+}
+
+.subnav ul {
+list-style: none;
+margin-top: -1px;
+}
+
+.subnav.carolssub li a, .subnav.storysub li a {
+background-repeat: no-repeat;
+background-position: 0 50%;
+background-size: auto 20px;
+padding: 5px 0 5px 30px;
+display: inline-block;
+}
+
+.subnav.carolssub li a {
+background-image: url(../img/icon-carols-b.svg);
+}
+
+.subnav.storysub li a {
+background-image: url(../img/icon-story-b.svg);
+}
+
+.toplink {
+text-align: right;
+}
+
+.toplink a {
+background-image: url(../img/arrow-up.svg);
+background-repeat: no-repeat;
+background-position: 100% 50%;
+background-size: auto 24px;
+padding: 5px 30px 5px 0;
+font-size: 75%;
+text-transform: uppercase;
+display: inline-block;
+}
+
+.homelinks {
+list-style: none;
+padding: 0;
+}
+
+.homelinks li {
+margin-bottom: 25px;
+}
+
+.home-story a, .home-carols a {
+display: inline-block;
+font-size: 150%;
+}
+
+.home-story a span, .home-carols a span {
+display: block;
+font-size: 65%;
+}
+
+.home-carols a {
+background-image: url(../img/icon-carols-b.svg);
+background-repeat: no-repeat;
+background-position: 0 50%;
+background-size: auto 80px;
+padding: 25px 0 25px 100px;
+}
+
+.home-story a {
+background-image: url(../img/icon-story-b.svg);
+background-repeat: no-repeat;
+background-position: 0 50%;
+background-size: auto 80px;
+padding: 20px 0 20px 120px;
+}
+
+.site-footer {
+clear: both;
+position: relative;
+border-top: 1px solid #eee;
+color: #999;
+margin-top: 30px;
+padding: 10px;
+font-size: 80%;
+text-align: center;
+}
+
+#nav {
+float: right;
+margin: 0 10px 0 0;
+}
+
+#nav li {
+display: inline;
+}
+
+#nav li a {
+color: #fff;
+font-size: 70%;
+padding: 30px 0 0 0;
+margin: 0 15px 0 0;
+display: inline-block;
+}
+
+#carols a {
+background: url(../img/icon-carols-w.svg) no-repeat 50% 8px;
+background-size: auto 20px;
+}
+
+#story a {
+background: url(../img/icon-story-w.svg) no-repeat 50% 8px;
+background-size: auto 20px;
+}
+
+
+@media screen and (max-width: 425px){
+
+.homelinks li {
+margin-bottom: 15px;
+}
+
+.home-story a, .home-carols a {
+font-size: 130%;
+}
+
+.home-story a span, .home-carols a span {
+font-size: 55%;
+}
+
+.home-carols a, .home-story a  {
+background-size: auto 60px;
+padding: 15px 0 15px 80px;
+}
+
+h1 {
+font-size: 1.4em;
+}
+
+}
+
+
+@media screen and (min-width: 769px){
+
+.homelinks li {
+display: inline-block;
+margin: 0 40px 20px 0;
+}
+
+.home-story a, .home-carols a {
+display: inline-block;
+}
+
+}
